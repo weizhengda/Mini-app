@@ -1,0 +1,6 @@
+<template name="header">
+  <text>header---{{text}}</text>
+</template>
+
+
+header------------

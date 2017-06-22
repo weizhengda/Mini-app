@@ -1,0 +1,19 @@
+
+
+<!--1.定义模板           name="header"-->
+
+
+<template name="header">
+    这是一个头部--{{name}}
+</template>
+
+
+<!--2.使用模板  is="header"
+
+data 传值
+
+-->
+<template is="header" data="{{name}}" />
+
+
+

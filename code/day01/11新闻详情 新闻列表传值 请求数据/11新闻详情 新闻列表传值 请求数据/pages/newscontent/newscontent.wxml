@@ -1,0 +1,11 @@
+
+
+<view class="h2">
+
+    {{contentData.title}}
+</view>
+<view>
+    新闻详情
+
+      {{contentData.content}}
+</view>

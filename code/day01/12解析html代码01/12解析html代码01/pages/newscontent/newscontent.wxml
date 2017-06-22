@@ -1,0 +1,22 @@
+
+
+<import src="../../wxParse/wxParse.wxml"/> 
+
+
+
+<view class="wxParse">
+    <template is="wxParse" data="{{wxParseData:article_b.nodes}}"/>
+</view>
+
+
+
+<!--<view class="h2">
+
+    {{contentData.title}}
+</view>
+<view>
+    新闻详情
+
+      {{contentData.content}}
+</view>
+-->

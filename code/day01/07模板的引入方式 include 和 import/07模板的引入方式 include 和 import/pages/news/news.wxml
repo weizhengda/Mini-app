@@ -1,0 +1,46 @@
+
+<import src="../public/header.wxml"/>
+
+
+
+<template is="header" data="{{text}}"/>    
+
+
+<view>
+
+------------------
+</view>
+
+
+
+
+<include src="../public/footer.wxml"/>
+
+
+
+
+<!--
+
+import   include区别：
+
+
+import  
+
+    1.import首先需要外部页面定义一个  模板template
+
+
+    2.引入外部页面
+
+    3.使用外部页面 定义的模板
+
+
+include
+
+1.外部定义一个wxml页面   还可以使用我们data绑定的数据
+
+2.引入直接使用  
+
+-->
+
+
+

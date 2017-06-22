@@ -1,0 +1,21 @@
+<view class="list">
+
+
+
+
+    <view wx:for="{{list}}" class="item">
+
+        <view class="item-img">
+
+             <image src="http://www.phonegap100.com/data/attachment/{{item.pic}}"></image>
+        
+        </view>
+
+        <view class="item-text">
+
+                {{item.title}}
+            
+            </view>
+    </view>
+   
+</view>

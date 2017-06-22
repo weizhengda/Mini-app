@@ -1,0 +1,33 @@
+
+
+
+<view data-aid='345' bindtap='run'  class="tap">
+
+
+这是一个点击事件
+</view>
+
+
+
+
+
+
+
+
+<view  style="height:40px;">
+
+</view>
+
+
+
+{{name}}
+
+
+
+
+<view data-aid='345' bindlongtap='runLong' class="longtap">
+
+
+这是一个长按事件
+</view>
+

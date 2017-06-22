@@ -1,0 +1,49 @@
+
+<view id="data_{{id}}" wx:if="{{flag}}">
+    
+
+    {{imgurl}}
+
+    
+    <image src='{{imgurl}}'></image>
+
+
+
+</view>
+
+-------------------------
+
+
+<view hidden="{{flag_hidden ? true : false}}">
+    
+    
+    <image src='{{imgurl}}'></image>
+</view>
+
+
+
+
+<view>{{info}}</view>
+
+
+
+-----------------------
+
+<view wx:if="{{length > 5}}"> 1 </view>
+<view wx:elif="{{length > 2 && length < 5}}"> 2 </view>
+<view wx:else> 3 </view>
+
+
+<!--
+微信小程序里面   把view 当做div
+
+img标签没法使用 可以使用  image标签
+
+<img src="../../images/bd_logo1.png" />-->
+
+
+<!--function getname(name){
+
+    var _name=name||'张三';
+}
+-->

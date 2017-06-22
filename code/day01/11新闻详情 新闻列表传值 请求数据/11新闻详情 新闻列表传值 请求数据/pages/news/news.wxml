@@ -1,0 +1,21 @@
+<view class="list">
+
+
+
+
+    <view wx:for="{{list}}" class="item" data-aid="{{item.aid}}" bindtap="goContent">
+
+        <view class="item-img">
+
+             <image src="{{imgUrl}}{{item.pic}}"></image>
+        
+        </view>
+
+        <view class="item-text">
+
+                {{item.title}}
+            
+            </view>
+    </view>
+   
+</view>

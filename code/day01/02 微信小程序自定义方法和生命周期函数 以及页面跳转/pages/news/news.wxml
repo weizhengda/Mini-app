@@ -1,0 +1,18 @@
+
+<view>
+    
+    <image src="../../images/bd_logo1.png"></image>
+</view>
+
+<view>{{info}}</view>
+
+
+<!--
+微信小程序里面   把view 当做div
+
+img标签没法使用 可以使用  image标签
+
+<img src="../../images/bd_logo1.png" />-->
+
+
+

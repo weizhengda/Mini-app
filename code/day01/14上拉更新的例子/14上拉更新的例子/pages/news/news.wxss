@@ -1,0 +1,38 @@
+.list{
+
+    padding: 20rpx;
+
+}
+
+.item{
+
+    height: 240rpx;
+
+ 
+    border-bottom:1rpx solid #eee;
+    overflow: hidden;
+    display: -webkit-flex;
+    display:flex;
+
+}
+
+
+.item .item-img{
+
+    width: 190rpx;
+    height: 190rpx;
+    padding-right: 10px;
+}
+
+
+
+.item .item-img image{
+
+    width: 190rpx;
+    height: 190rpx;
+}
+
+.item .item-text{
+
+    flex: 1;
+}

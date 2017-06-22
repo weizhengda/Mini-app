@@ -1,0 +1,43 @@
+<!--index.wxml-->
+<view class="container">
+  <view  bindtap="bindViewTap" class="userinfo">
+    
+   
+    
+        <button>跳转到日志</button>
+    
+  </view>
+
+ <view  bindtap="goNews">
+    
+   
+    
+        <button>跳转到新闻js</button>
+    
+  </view>
+
+
+
+ <view>  
+   
+
+    <navigator url="../news/news" hover-class="navigator-hover">
+        <button>跳转到新闻页面 navigator</button>
+      
+    
+    </navigator>
+    
+  </view>
+
+
+
+
+  -------------------------
+
+
+  <view>{{info}}</view>
+
+
+
+
+</view>

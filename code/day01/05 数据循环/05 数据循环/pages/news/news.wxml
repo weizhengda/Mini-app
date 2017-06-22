@@ -1,0 +1,46 @@
+
+
+<view>
+
+    <text wx:for="{{list}}">
+        {{index}}--{{item}}
+    </text>
+</view>
+
+
+--------------------------
+
+
+
+
+<view>
+
+    <text wx:for="{{list1}}">
+
+        {{index}}--{{item.name}}
+    </text>
+</view>
+
+--------
+<!--
+使用 wx:for-item 可以指定数组当前元素的变量名，
+
+使用 wx:for-index 可以指定数组当前下标的变量名：-->
+
+
+<view>
+
+    <text wx:for="{{list2}}" wx:for-item='value' wx:for-index='key'>
+
+      {{key}}-- {{value.name}}
+      
+
+       <text wx:for="{{value.news}}" wx:for-item='val'>
+       ------{{val.title}}
+       </text>
+
+
+    </text>
+</view>
+
+

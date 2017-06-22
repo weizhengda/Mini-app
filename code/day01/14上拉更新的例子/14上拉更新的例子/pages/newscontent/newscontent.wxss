@@ -1,0 +1,11 @@
+/* pages/newscontent/newscontent.wxss */
+@import "../../wxParse/wxParse.wxss";
+
+
+.content{
+    padding: 10px;
+}
+
+.wxParse-div{
+    line-height: 2;
+}

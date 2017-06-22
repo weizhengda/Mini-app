@@ -1,0 +1,35 @@
+
+
+
+
+
+<scroll-view scroll-y="true" style="height:{{systemHeight}}px;" bindscrolltolower="loadMore">
+   
+
+        <view class="list">
+            <view wx:for="{{list}}" class="item" data-aid="{{item.aid}}">
+
+
+            
+                    <view class="item-img">
+                        <navigator url="../newscontent/newscontent?aid={{item.aid}}" hover-class="navigator-hover">
+                        <image src="{{imgUrl}}{{item.pic}}"></image>
+            
+                        </navigator>       
+                    </view>
+
+                    <view class="item-text">
+                        <navigator url="../newscontent/newscontent?aid={{item.aid}}" hover-class="navigator-hover">
+                        {{item.title}}
+                    </navigator>       
+                    </view>
+
+
+            </view>
+        
+        </view>
+
+  </scroll-view>
+
+
+
